@@ -1,0 +1,16 @@
+{"repo_url": "https://github.com/axios/axios", "question": "How do request and response interceptors work?", "expected_files": ["lib/core/InterceptorManager.js", "lib/core/Axios.js"]}
+{"repo_url": "https://github.com/axios/axios", "question": "How does it choose whether to use XMLHttpRequest, fetch, or the Node http module?", "expected_files": ["lib/adapters/adapters.js"]}
+{"repo_url": "https://github.com/axios/axios", "question": "How can a request be cancelled with a token?", "expected_files": ["lib/cancel/CancelToken.js"]}
+{"repo_url": "https://github.com/axios/axios", "question": "Where are the default settings like timeout and default headers defined?", "expected_files": ["lib/defaults/index.js"]}
+{"repo_url": "https://github.com/axios/axios", "question": "How is a per-request config combined with the instance defaults?", "expected_files": ["lib/core/mergeConfig.js"]}
+{"repo_url": "https://github.com/axios/axios", "question": "How is it decided whether a response status should reject the promise?", "expected_files": ["lib/core/settle.js"]}
+{"repo_url": "https://github.com/axios/axios", "question": "How are query parameters serialized into the URL?", "expected_files": ["lib/helpers/buildURL.js"]}
+{"repo_url": "https://github.com/axios/axios", "question": "How are header names normalized and stored?", "expected_files": ["lib/core/AxiosHeaders.js"]}
+{"repo_url": "https://github.com/axios/axios", "question": "How does it protect against cross-site request forgery with a token cookie?", "expected_files": ["lib/helpers/resolveConfig.js"]}
+{"repo_url": "https://github.com/axios/axios", "question": "How are redirects followed when running in Node?", "expected_files": ["lib/adapters/http.js"]}
+{"repo_url": "https://github.com/axios/axios", "question": "How are upload and download progress events computed?", "expected_files": ["lib/helpers/progressEventReducer.js"]}
+{"repo_url": "https://github.com/axios/axios", "question": "What information does the error object contain when a request fails?", "expected_files": ["lib/core/AxiosError.js"]}
+{"repo_url": "https://github.com/axios/axios", "question": "How is a plain JavaScript object converted to multipart form data?", "expected_files": ["lib/helpers/toFormData.js"]}
+{"repo_url": "https://github.com/axios/axios", "question": "What happens when I call axios.create to make a new instance?", "expected_files": ["lib/axios.js"]}
+{"repo_url": "https://github.com/axios/axios", "question": "How are request bodies serialized to JSON before sending?", "expected_files": ["lib/defaults/index.js"]}
+{"repo_url": "https://github.com/axios/axios", "question": "How does the adapter based on the Fetch API send a request?", "expected_files": ["lib/adapters/fetch.js"]}

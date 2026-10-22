@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# cloned repos, repo maps, local caches
+data/
+
+# keep result folders, ignore bulky raw outputs
+eval/results/*.json
+benchmarks/results/*.csv
+!**/.gitkeep

@@ -1,0 +1,8 @@
+{
+  "_comment": "Commits the eval sets were written against (full SHAs, so a fresh machine can fetch them). Expected files/commands/definitions are only valid at these commits.",
+  "https://github.com/psf/requests": "611c6162cbc4ac2020a2f91c7cfa4f3abf9bbb60",
+  "https://github.com/pallets/click": "2247b35ea1c47c727d7a06e51fa280e12a863ff6",
+  "https://github.com/axios/axios": "fceeb10997ea71778ad8bc9671ad53e9195a707c",
+  "https://github.com/pallets/itsdangerous": "672971d66a2ef9f85151e53283113f33d642dabd",
+  "https://github.com/Junismyname/room-presence-yolo": "84c9ad1fc383c541c11e50b565ab384211484ff0"
+}

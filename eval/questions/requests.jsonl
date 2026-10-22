@@ -1,0 +1,15 @@
+{"repo_url": "https://github.com/psf/requests", "question": "Where is the Session class defined and what does it persist across requests?", "expected_files": ["src/requests/sessions.py"]}
+{"repo_url": "https://github.com/psf/requests", "question": "How do I configure automatic retries for failed connections?", "expected_files": ["src/requests/adapters.py"]}
+{"repo_url": "https://github.com/psf/requests", "question": "How are cookies stored and sent back on later requests?", "expected_files": ["src/requests/cookies.py"]}
+{"repo_url": "https://github.com/psf/requests", "question": "What exception is raised when a request times out?", "expected_files": ["src/requests/exceptions.py"]}
+{"repo_url": "https://github.com/psf/requests", "question": "How does the library decide which proxy to use for a URL, and when does it skip the proxy?", "expected_files": ["src/requests/utils.py"]}
+{"repo_url": "https://github.com/psf/requests", "question": "Where are proxy settings from environment variables merged into a request?", "expected_files": ["src/requests/sessions.py"]}
+{"repo_url": "https://github.com/psf/requests", "question": "How is the text encoding of a response guessed when the server does not send a charset?", "expected_files": ["src/requests/models.py"]}
+{"repo_url": "https://github.com/psf/requests", "question": "Where are basic and digest authentication implemented?", "expected_files": ["src/requests/auth.py"]}
+{"repo_url": "https://github.com/psf/requests", "question": "How are HTTP redirects followed?", "expected_files": ["src/requests/sessions.py"]}
+{"repo_url": "https://github.com/psf/requests", "question": "How do I turn 4xx and 5xx responses into exceptions?", "expected_files": ["src/requests/models.py"]}
+{"repo_url": "https://github.com/psf/requests", "question": "Why can I read headers with any capitalization, like headers['content-type']?", "expected_files": ["src/requests/structures.py"]}
+{"repo_url": "https://github.com/psf/requests", "question": "How are user-supplied hook functions called after a response arrives?", "expected_files": ["src/requests/hooks.py"]}
+{"repo_url": "https://github.com/psf/requests", "question": "How is the SSL certificate verification setting applied to the connection?", "expected_files": ["src/requests/adapters.py"]}
+{"repo_url": "https://github.com/psf/requests", "question": "Where do named status codes like codes.ok and codes.not_found come from?", "expected_files": ["src/requests/status_codes.py"]}
+{"repo_url": "https://github.com/psf/requests", "question": "How is a multipart body built when uploading files?", "expected_files": ["src/requests/models.py"]}

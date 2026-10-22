@@ -1,0 +1,15 @@
+{"repo_url": "https://github.com/Junismyname/room-presence-yolo", "turns": ["What's the second class of model.py file?", "What about the first one?"], "structure": {"path": "src/model.py", "kind": "class", "index": 0}}
+{"repo_url": "https://github.com/psf/requests", "turns": ["What's the second class in auth.py?", "And the first one?"], "structure": {"path": "src/requests/auth.py", "kind": "class", "index": 0}}
+{"repo_url": "https://github.com/pallets/click", "turns": ["What's the first class in exceptions.py?", "What is the second one?"], "structure": {"path": "src/click/exceptions.py", "kind": "class", "index": 1}}
+{"repo_url": "https://github.com/axios/axios", "turns": ["What's the first function in formDataToJSON.js?", "and the third?"], "structure": {"path": "lib/helpers/formDataToJSON.js", "kind": "function", "index": 2}}
+{"repo_url": "https://github.com/pallets/itsdangerous", "turns": ["What's the first class in signer.py?", "What about the second?"], "structure": {"path": "src/itsdangerous/signer.py", "kind": "class", "index": 1}}
+{"repo_url": "https://github.com/psf/requests", "turns": ["Where is the Session class defined?", "What does its request method do?"], "expected_files": ["src/requests/sessions.py"]}
+{"repo_url": "https://github.com/psf/requests", "turns": ["How do I configure automatic retries for failed connections?", "Where is that adapter class defined?"], "expected_files": ["src/requests/adapters.py"]}
+{"repo_url": "https://github.com/psf/requests", "turns": ["What exceptions can requests raise?", "Which one is raised on a timeout, and what does it inherit from?"], "expected_files": ["src/requests/exceptions.py"]}
+{"repo_url": "https://github.com/pallets/click", "turns": ["How does click ask the user for input interactively?", "Can it hide what the user types, like for passwords?"], "expected_files": ["src/click/termui.py"]}
+{"repo_url": "https://github.com/pallets/click", "turns": ["How do I test a click command in a unit test?", "How does that runner capture the output?"], "expected_files": ["src/click/testing.py"]}
+{"repo_url": "https://github.com/pallets/click", "turns": ["How is the progress bar shown to the user?", "Where is the class that renders it?"], "expected_files": ["src/click/_termui_impl.py"]}
+{"repo_url": "https://github.com/axios/axios", "turns": ["How do request interceptors work?", "Where is the class that stores them?"], "expected_files": ["lib/core/InterceptorManager.js"]}
+{"repo_url": "https://github.com/axios/axios", "turns": ["How can I cancel a request?", "Show me the class that implements the token-based way."], "expected_files": ["lib/cancel/CancelToken.js"]}
+{"repo_url": "https://github.com/axios/axios", "turns": ["Where are the default request settings defined?", "What is the default timeout there?"], "expected_files": ["lib/defaults/index.js"]}
+{"repo_url": "https://github.com/pallets/itsdangerous", "turns": ["How are timestamps added to signatures?", "Which class does that?"], "expected_files": ["src/itsdangerous/timed.py"]}

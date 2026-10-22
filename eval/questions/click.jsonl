@@ -1,0 +1,15 @@
+{"repo_url": "https://github.com/pallets/click", "question": "How do I create a command group that has subcommands?", "expected_files": ["src/click/decorators.py", "src/click/core.py"]}
+{"repo_url": "https://github.com/pallets/click", "question": "Where are command line options and arguments actually parsed from argv?", "expected_files": ["src/click/parser.py"]}
+{"repo_url": "https://github.com/pallets/click", "question": "How does the library ask the user for input interactively?", "expected_files": ["src/click/termui.py"]}
+{"repo_url": "https://github.com/pallets/click", "question": "How can I invoke a command inside a unit test and capture its output?", "expected_files": ["src/click/testing.py"]}
+{"repo_url": "https://github.com/pallets/click", "question": "How does tab completion work in bash?", "expected_files": ["src/click/shell_completion.py"]}
+{"repo_url": "https://github.com/pallets/click", "question": "Where are parameter types that restrict values to a fixed set or a numeric range defined?", "expected_files": ["src/click/types.py"]}
+{"repo_url": "https://github.com/pallets/click", "question": "What error is raised when a parameter value is invalid, and how is it shown to the user?", "expected_files": ["src/click/exceptions.py"]}
+{"repo_url": "https://github.com/pallets/click", "question": "How is the help page text laid out and wrapped to the terminal width?", "expected_files": ["src/click/formatting.py"]}
+{"repo_url": "https://github.com/pallets/click", "question": "How does a parent command share state with its subcommands?", "expected_files": ["src/click/core.py", "src/click/decorators.py"]}
+{"repo_url": "https://github.com/pallets/click", "question": "How is the progress bar rendered and updated?", "expected_files": ["src/click/_termui_impl.py", "src/click/termui.py"]}
+{"repo_url": "https://github.com/pallets/click", "question": "How can options read their default values from environment variables automatically?", "expected_files": ["src/click/core.py"]}
+{"repo_url": "https://github.com/pallets/click", "question": "How does printing text work on the Windows console?", "expected_files": ["src/click/_winconsole.py"]}
+{"repo_url": "https://github.com/pallets/click", "question": "How does the file parameter type open files, and when are they opened lazily?", "expected_files": ["src/click/types.py"]}
+{"repo_url": "https://github.com/pallets/click", "question": "How do I get the currently active context from a helper function?", "expected_files": ["src/click/globals.py"]}
+{"repo_url": "https://github.com/pallets/click", "question": "How does it launch a text editor and return what the user typed?", "expected_files": ["src/click/_termui_impl.py", "src/click/termui.py"]}

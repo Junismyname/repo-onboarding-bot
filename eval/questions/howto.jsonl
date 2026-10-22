@@ -1,0 +1,12 @@
+{"repo_url": "https://github.com/Junismyname/room-presence-yolo", "question": "How do I run this repository?", "expected_commands": ["pip install -r requirements.txt", "python scripts/split_data.py", "python scripts/train.py", "python scripts/evaluate.py", "python scripts/live_pipeline.py"]}
+{"repo_url": "https://github.com/Junismyname/room-presence-yolo", "question": "How do I set up the environment for this project?", "expected_commands": ["python -m venv venv", "pip install -r requirements.txt"]}
+{"repo_url": "https://github.com/Junismyname/room-presence-yolo", "question": "How do I train the model?", "expected_commands": ["python scripts/train.py"]}
+{"repo_url": "https://github.com/Junismyname/room-presence-yolo", "question": "How do I start the live webcam detector?", "expected_commands": ["python scripts/live_pipeline.py"]}
+{"repo_url": "https://github.com/Junismyname/room-presence-yolo", "question": "How do I create the test split of the dataset?", "expected_commands": ["python scripts/split_data.py"]}
+{"repo_url": "https://github.com/psf/requests", "question": "How do I install requests?", "expected_commands": ["pip install requests"]}
+{"repo_url": "https://github.com/psf/requests", "question": "How do I get the source code to work on requests myself?", "expected_commands": ["git clone", "github.com/psf/requests.git"]}
+{"repo_url": "https://github.com/axios/axios", "question": "How do I install axios?", "expected_commands": ["npm install axios"]}
+{"repo_url": "https://github.com/axios/axios", "question": "How do I install axios with yarn?", "expected_commands": ["yarn add axios"]}
+{"repo_url": "https://github.com/pallets/click", "question": "How do I run the hello world example?", "expected_commands": ["python hello.py"]}
+{"repo_url": "https://github.com/psf/requests", "question": "How do I run the test suite of requests?", "expected_commands": [["pytest tests", "make test"]]}
+{"repo_url": "https://github.com/axios/axios", "question": "How do I run the axios tests?", "expected_commands": [["npm test", "npm run test"]]}
