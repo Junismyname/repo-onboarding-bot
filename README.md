@@ -63,7 +63,7 @@ File-level recall on 46 questions. 20 configurations were tested; the main ones 
 | tree-sitter | all files | dense | 0.49 | 0.82 | 0.84 | 0.62 |
 | tree-sitter | all files | hybrid (dense + BM25) | 0.24 | 0.72 | 0.84 | 0.48 |
 | tree-sitter | all files | hybrid + re-ranker | 0.21 | 0.68 | 0.76 | 0.42 |
-| **tree-sitter** | **code only** | **dense** ✅ | **0.65** | 0.83 | 0.88 | **0.75** |
+| **tree-sitter** | **code only** | **dense**  | **0.65** | 0.83 | 0.88 | **0.75** |
 | tree-sitter | code only | hybrid | 0.55 | 0.85 | 0.86 | 0.72 |
 | tree-sitter | code only | dense + bge-reranker-v2-m3 | 0.54 | 0.89 | 0.93 | 0.70 |
 
